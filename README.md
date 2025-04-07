@@ -16,6 +16,8 @@ Sunlit Terraces is a FastAPI-based application that helps users find bars, café
 - Docker (optional for containerized deployment)
 - Node.js & npm for frontend
 
+** Make sure to create a .env file and add you Google MAP API key.
+
 ### Backend Setup
 1. Clone the repository:
    ```sh
