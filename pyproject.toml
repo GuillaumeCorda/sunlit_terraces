@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "sunlit-terraces"
+version = "0.1.0"
+description = ""
+authors = ["Guillaume Corda"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.34.0"
+fastapi = "^0.115.12"
+dotenv = "^0.9.9"
+requests = "^2.32.3"
+pysolar = "^0.13"
+geopy = "^2.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.2.0"
+pre-commit = "^4.2.0"
+black = "^25.1.0"
+isort = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.flake8]
+max-line-length = 88
